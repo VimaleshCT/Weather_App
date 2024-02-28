@@ -1,0 +1,127 @@
+.container {
+  width: 610px;
+  height: 720px;
+  margin: auto;
+  border-radius: 12px;
+  background: rgb(16, 99, 97);
+  background: linear-gradient(
+    90deg,
+    rgba(16, 99, 97, 1) 0%,
+    rgba(30, 76, 179, 1) 0%,
+    rgba(13, 133, 188, 1) 50%,
+    rgba(13, 184, 184, 1) 91%
+  );
+}
+.top-bar {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding-top: 20px;
+}
+.top-bar input {
+  display: flex;
+  width: 360px;
+  height: 75px;
+  background: #ebfffc;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding-left: 40px;
+  color: #082a78;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  background-color: #ebfffc;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.weather-image {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-temp {
+  display: flex;
+  justify-content: center;
+  color: floralwhite;
+  font-size: 120px;
+  font-weight: 500;
+}
+
+.weather-loc {
+  display: flex;
+  justify-content: center;
+  color: floralwhite;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.data-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: floralwhite;
+}
+
+.element {
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.data {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.icon {
+  margin-top: 10px;
+}
+
+.back {
+  background-image: url("../Assets/back.jpg");
+}
+
+.footer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
